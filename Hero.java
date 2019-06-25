@@ -1,3 +1,4 @@
+import java.util.Collections;
 public class Hero {
 
     // attributs
@@ -5,9 +6,13 @@ public class Hero {
     private int age;
 
     // constructeurs
-    public Hero(String name, int age) {
+    public Hero(String name) {
         this.name = name;
-        this.age = age;
+        this.age = 0;
+    }
+    public Hero (String name, int age){
+        this.name=name;
+        this.age=age;
     }
 
     // accesseurs (getters)
